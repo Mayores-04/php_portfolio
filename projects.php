@@ -7,8 +7,10 @@
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/7e6aea3f19.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" type="text/css" href="global.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
+
 
 <body>
     <menu class="flex justify-center fixed top-0 left-0 z-50 flex-row ">
