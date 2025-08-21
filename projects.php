@@ -28,7 +28,10 @@
                 </a>
                 <a href="about.php" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
           after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
-          after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-[50%]">About me</a>
+          after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-[50%]">About me</a> 
+          <a href="#skillsPage" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
+          after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
+          after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">Skills</a>
                 <a href="contact.php" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
           after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
           after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-[50%]">Contact</a>

@@ -23,6 +23,9 @@
             <nav class="flex gap-2 text-[18px] flex-col text-left px-5">
                 <a href="index.php" class="text-[#699db5] no-underline hover:text-white transition duration-300">Home</a>
                 <a href="projects.php" class="text-[#699db5] no-underline hover:text-white transition duration-300">Projects</a>
+                <a href="#skillsPage" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
+          after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
+          after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">Skills</a>
                 <a href="contact.php" class="text-[#699db5] no-underline hover:text-white transition duration-300">Contact</a>
             </nav>
         </div>
