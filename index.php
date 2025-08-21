@@ -22,7 +22,7 @@
         /* background-image: linear-gradient(to bottom right, #061327, #394a72); */
     }
 
-    ss html {
+    html {
         scroll-behavior: smooth;
     }
 
@@ -203,8 +203,8 @@
 
         bubbleCursor();
     </script>
-    <header class="flex justify-center fixed top-0 left-0 z-50 w-full flex-row">
-        <div class="max-w-7xl w-full flex flex-row items-center justify-between items-left px-6">
+    <header class="flex backdrop-blur-md justify-center fixed top-0 left-0 z-50 w-full flex-row">
+        <div class=" w-full flex flex-row items-center justify-between items-left px-20">
             <a href="#"
                 class="py-4 text-5xl no-underline font-bold bg-gradient-to-r from-[#3dc1fc] to-[#ffb400] bg-clip-text text-transparent transition duration-300 hover:from-[#ffb400] hover:to-white">
                 DevFolio
@@ -216,9 +216,12 @@
           after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">
                     Home
                 </a>
-                <a href="projects.php" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
+                <a href="/#project" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
           after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
           after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">Projects</a>
+                <a href="#skillsPage" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
+          after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
+          after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">Skills</a>
                 <button onclick="toggleContactModal()" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
           after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
           after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">Contacts</button>
@@ -339,7 +342,7 @@
         </section>
 
         <!-- Skills -->
-        <section class="h-screen flex flex-col justify-center w-full items-center">
+        <section id="skillsPage" class="h-screen flex flex-col justify-center w-full items-center">
             <div class="grid grid-cols-2 place-items-center gap-10 max-w-5xl">
                 <div>
                     <h1 class="text-[#7cd4ff] text-7xl leading-tight">
@@ -424,8 +427,11 @@
         <div>© <span id="year"></span> Jake Mayores. All rights reserved.</div>
         <div class="flex space-x-4">
             <a href="about.php" class="hover:text-[#7cd4ff]">About</a>
-            <a href="contact.php" class="hover:text-[#7cd4ff]">Contact</a>
-            <a href="#projects" class="hover:text-[#7cd4ff]">Projects</a>
+            <button onclick="toggleContactModal()"
+                class="hover:text-[#7cd4ff]">
+                Contact me
+            </button>
+            <a href="projects.php" class="hover:text-[#7cd4ff]">Projects</a>
         </div>
     </footer>
 

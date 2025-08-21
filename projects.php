@@ -203,8 +203,8 @@
 
         bubbleCursor();
     </script>
-    <header class="flex justify-center fixed top-0 left-0 z-50 w-full flex-row">
-        <div class="max-w-[1200px] w-full flex flex-row items-center justify-between items-left px-6">
+    <header class="flex backdrop-blur-md justify-center fixed top-0 left-0 z-50 w-full flex-row">
+        <div class=" w-full flex flex-row items-center justify-between items-left px-20">
             <a href="index.php"
                 class="py-4 text-5xl no-underline font-bold bg-gradient-to-r from-[#3dc1fc] to-[#ffb400] bg-clip-text text-transparent transition duration-300 hover:from-[#ffb400] hover:to-white">
                 DevFolio
@@ -219,6 +219,9 @@
                 <a href="about.php" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
           after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
           after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">About me</a>
+                <a href="/#skillsPage" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
+          after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
+          after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">Skills</a>
                 <button onclick="toggleContactModal()" class="relative px-2 text-[#c5eafa] no-underline hover:text-[#00E6DA] transition duration-300
           after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
           after:bg-[#c5eafa] after:transition-all after:duration-300 hover:after:w-full">Contacts</button>
