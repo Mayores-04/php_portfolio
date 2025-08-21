@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, sans-serif;
   min-height: screen;
@@ -7,10 +11,6 @@ body {
   align-items: center;
   justify-content: center;
   /* background-image: linear-gradient(to bottom right, #061327, #394a72); */
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 /* Background-effect */
